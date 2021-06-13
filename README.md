@@ -2,28 +2,7 @@
 
 # ccarney16/pterodactyl-containers
 
-Pterodactyl, a free an open source agnostic game panel... In a Container!
-
-## Installing
-
-Refer to the github wiki for the quick overview and detailed setup.
-
-## Contributing
-
-All issues regarding Pterodactyl Panel/Node are to be reported to https://github.com/Pterodactyl/Panel/issues.
-
-## Useful Links
-
-*Pterodactyl Project*:
-
-[https://pterodactyl.io/](https://pterodactyl.io/)
-
-[https://docs.pterodactyl.io/](https://docs.pterodactyl.io/)
-
-[https://github.com/Pterodactyl/](https://github.com/Pterodactyl/)
-
-*Docker*:
-
-[https://docs.docker.com/](https://hub.docker.com/)
-
-[https://hub.docker.com/](https://hub.docker.com/)
+1.  ```mkdir /srv/app;```
+2.  ```sudo chown -R example:example /srv```  replace example:example with your username (not required if you are the admin user and don't use sudo)
+3.  ```cd /srv/app;```
+4.  ```git clone https://github.com/ccarney16/pterodactyl-docker pterodactyl;```
